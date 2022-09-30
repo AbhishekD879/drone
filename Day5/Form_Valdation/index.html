@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+    <style>
+        .flex-02{
+            flex:.1;
+            width:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex items-center justify-center p-12">
+       
+        <div class="mx-auto w-full max-w-[550px] bg-white">
+          <form id="form">
+            
+            <div class="mb-5">
+              <label
+                for="email"
+                class="mb-3 block text-base font-medium text-[#07074D]"
+              >
+                Email Address
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="example@domain.com"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+              />
+              <span id="In_Email" class="hidden text-xs font-medium block text-[red] ml-2 mt-2">Invalid Email</span>
+            </div>
+            <div class="mb-5">
+              <label
+                for="password"
+                class="mb-3 block text-base font-medium text-[#07074D]"
+              >
+                Password
+              </label>
+              <input
+                type="text"
+                name="password"
+                id="password"
+                placeholder="Enter your Password"
+                class="w-full rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+              />
+              <span id="In_Password" class="hidden text-xs font-medium block text-[red] ml-2 mt-2">Invalid Password</span>
+            </div>
+            <div class="mb-5">
+                <label
+                  for="phone"
+                  class="mb-3 block text-base font-medium text-[#07074D]"
+                >
+                  Phone
+                </label>
+                <div class="flex justify-start items-center">
+                    <input
+                  type="text"
+                  name="phone"
+                  id="code"
+                  placeholder="+91"
+                  disabled
+                  class="flex-02 block rounded-md border border-[#e0e0e0] bg-white p-3 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                />
+                <input
+                  type="text"
+                  name="phone"
+                  id="phone"
+                  placeholder="Enter your Phone Number"
+                  class="flex-1 block rounded-md border border-[#e0e0e0] bg-white py-3 px-6 text-base font-medium text-[#6B7280] outline-none focus:border-[#6A64F1] focus:shadow-md"
+                />
+                </div>
+                <span id="In_Phone" class="hidden text-xs font-medium block text-[red] ml-2 mt-2">Invalid Phone</span>
+              </div>
+            <div>
+              <button
+                id="sumbit"
+                type="submit"
+                class=" cursor-pointer hover:shadow-form rounded-md bg-[#6A64F1] py-3 px-8 text-base font-semibold text-white outline-none"
+                value="Submit"
+              >Submit</button>  
+            </div>
+          </form>
+        </div>
+      </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./index.js" defer></script>
+    <title>Document</title>
+</head>
+<body class="flex justify-center items-center flex-col w-screen h-screen">
+    <div class="p-10 flex flex-col items-center border bg-gray-600 text-white text-semibold rounded">
+        <h1 class="mb-5 text-center">BMI Calculator</h1>
+        <div class="flex justify-center items-center">
+           
+            <div   class=" p-6 rounded drop-shadow weight border bg-gray-800">
+                <span id="weight" contenteditable=true >70</span>&nbsp;<span>kg</span>
+            </div>
+            <div class=" ml-5 p-6 rounded drop-shadow height border bg-gray-800">
+                <span id="height" contenteditable=true>125</span>&nbsp;<span>cm</span>
+            </div>
+        </div>
+        <div class=" mt-5 flex flex-col items-center border bg-gray-600 text-white text-semibold rounded">
+            <button id="calculate" class="bg-sky-500 hover:bg-sky-700 px-5 py-2">Calculate</button>
+        </div>
+        <div class="mt-5 result w-full h-full flex-col rounded items-center border bg-gray-600">
+            <h1 class="text-center">Result</h1>
+            <div class=" w-full p-2 rounded  drop-shadow weight border bg-gray-800" >
+                    <h1 id="bmi" class="text-center">33.6</h1>
+                    <br>
+                    <h1 id="catogary" class="text-center">Obese</h1>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
