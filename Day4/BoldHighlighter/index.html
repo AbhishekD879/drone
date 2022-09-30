@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        Lorem ipsum dolor sit <strong>amet consectetur adipisicing</strong> elit. Sint <strong>id porro magnam obcaecati</strong> expedita numquam, <strong>cupiditate unde consequuntur maiores</strong> exercitationem quisquam esse ex vitae. Ducimus eius blanditiis quis omnis quas labore maxime sint voluptates impedit delectus amet, <strong>esse nulla obcaecati, consequatur perspiciatis est</strong>, hic nesciunt. <strong>Expedita dolores, eligendi quod dolorem at</strong>, repellat tenetur, tempora placeat maxime cum odio in adipisci cupiditate. Porro quibusdam praesentium possimus eligendi itaque, suscipit, <strong>architecto odio similique sapiente</strong>, ipsum ratione enim error ut libero autem. Dolore sint commodi <strong>eius non consectetur necessitatibus voluptas</strong> recusandae mollitia ea illum rem, nemo quasi voluptates atque dicta. Aliquam, voluptatibus quidem!
+    </p>
+    <script>
+        const strong=Array.from(document.getElementsByTagName("strong"));
+        const para=document.querySelector("p");
+        para.addEventListener("mouseenter",()=>{
+           strong.forEach((st)=>{
+                st.style.color="red";
+           })
+        })
+        para.addEventListener("mouseleave",()=>{
+            strong.forEach((st)=>{
+                st.style.color="black";
+           })
+        })
+    </script>
+</body>
+
+</html>

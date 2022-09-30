@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(36,23,0);
+    background: linear-gradient(185deg, rgba(36,23,0,1) 0%, rgba(242,108,222,1) 0%, rgba(0,212,255,1) 100%);
+    height:100vh;
+    width: 100%;
+    border: dotted 1px solid black;
+    
+}
+textarea {
+    flex: .9; 
+    width: 500px;
+    height: 150px;
+  }
+.input__Container{
+    color: white;
+   
+    display: flex;
+    justify-content: space-between;
+    padding:1rem;
+    align-items: center;
+    font-weight: 700;
+    font-size:1.25rem;
+    min-width: 80%;
+}
+.input__Container+label{
+    margin-right: 2rem;
+}
+.input__Container > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.email{
+    flex: .69;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.mobile{
+    flex: .49; 
+}
+.input__Container > div> input{
+    padding: .5rem .5rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    min-width: 20rem;
+    margin-right:2rem;
+
+}
+.input__Container__radio{
+    display: flex;
+    flex: .8; 
+}
+.input__Container__hobbies> div{
+    margin-left:1rem;
+}
+.btn_containber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_containber> button{
+    padding: .2rem 2rem;
+    border-radius: .25rem;
+    -webkit-border-radius: .25rem;
+    -moz-border-radius: .25rem;
+    -ms-border-radius: .25rem;
+    -o-border-radius: .25rem;
+    margin-left: .5rem;
+    cursor: pointer;
+}
+.qualification{
+    flex: .47;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start !important;
+}
