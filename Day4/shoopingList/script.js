@@ -15,5 +15,5 @@ addItems.addEventListener("click",()=>{
     li.querySelector(".deleteItems").addEventListener("click",_=>{
         li.remove();
     })
-    value="";
+    document.getElementById("input").value="";
 })
