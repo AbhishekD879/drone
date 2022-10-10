@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/drone/static/css/main.8e35d906.css",
+    "main.js": "/drone/static/js/main.d4441696.js",
+    "static/media/DroneLogo.svg": "/drone/static/media/DroneLogo.93df7bc07b7082a5e2d032a851e74fea.svg",
+    "static/media/evol.svg": "/drone/static/media/evol.803481195e6beca603edfc0fbb1cdee3.svg",
+    "index.html": "/drone/index.html",
+    "main.8e35d906.css.map": "/drone/static/css/main.8e35d906.css.map",
+    "main.d4441696.js.map": "/drone/static/js/main.d4441696.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8e35d906.css",
+    "static/js/main.d4441696.js"
+  ]
+}
