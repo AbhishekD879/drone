@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+// requires a loader
 
 import ImageGallery from 'react-image-gallery';
 const About = () => {
@@ -20,7 +20,7 @@ const About = () => {
   },[])
   
   return (
-    <div className='flex justify-center items-center'>
+    <div className='flex justify-center items-center mt-32'>
       <div className='w-1/2 h-1/2' >
       
       <ImageGallery items={photos} />

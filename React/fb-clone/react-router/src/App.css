@@ -1,0 +1,109 @@
+body{
+    background-color: #ECF3FF;
+}
+
+.aside__header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.aside__Profile__imgContainer{
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+}
+.aside__Profile__imgContainer > img{
+  object-fit: cover;
+  /* width: 100%; */
+  object-position: center;
+  display: inline-block;
+  vertical-align: middle;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+.aside__profile{
+    font-weight: 600;
+    font-size: 15px;
+}
+.aside__Name__Id{
+    font-size: 14px;
+    color: gray;
+}
+.aside__right>p{
+    font-size: 12px;
+    color: #2196f3;
+}
+.asider__header__left__container{
+    display: flex;
+    align-items: center;
+}
+.aside__Profile__imgContainer{
+    margin-right: 18px;
+}
+.suggestion__box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.suggestion__box > h2{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9f9f9f;
+}
+.suggestion__box > p{
+    font-size: 12px;
+    color: rgba(0,0,0,.5);
+    font-weight: 700;
+}
+.suggested__profile__list__Each__profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: .5rem;
+    margin-bottom: 1rem;
+}
+.suggested__profile__ImageContainer{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-right: 12px;
+}
+.suggested__profile__ImageContainer >img{
+    object-fit: cover;
+    object-position: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    
+}
+.suggested__Each__profile__Name-Status__Conatiner{
+    justify-self: flex-start;
+}
+.suggested__Each__profile__Name-Status__Conatiner> h4{
+    font-weight: 600;
+    font-size: 15px;
+}
+.suggested__Each__profile__Name-Status__Conatiner > p{
+    font-size: 12px;
+}
+.suggested__Each__Profile__followBtn{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1rem;
+    color: #0095f6;
+    justify-self: flex-end;
+}
+.suggested__profile__Each__profile__left{
+    display: flex;
+    align-items: flex-start;
+    
+    flex: 1;
+}
